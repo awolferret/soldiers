@@ -14,7 +14,7 @@ namespace ConsoleApp1
 
     class Army
     {
-        private List<Soldier> _soldiers = new List<Soldier> {new Soldier("Иван","Ак-74","Рядовой",12), new Soldier("Андрей", "Ак-74", "Рядовой", 8), new Soldier("Василий", "Ак-74М", "Сержант", 48) };
+        private List<Soldier> _soldiers = new List<Soldier> {new Soldier("Иван","Ак-74","Рядовой",12), new Soldier("Андрей", "Ак-74", "Рядовой", 8), new Soldier("Василий", "Ак-74М", "Сержант", 48), new Soldier("Евгений", "СВД", "Майор", 50),new Soldier("Григорий", "Ак-74М", "Сержант", 18) };
 
         public Army()
         {
